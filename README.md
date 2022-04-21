@@ -13,8 +13,22 @@ Your GMS has to have at least seven functions:
 - Calculate the average grade of a given class
 - Calculate the average grade of a given student
 - Find and list the grades of a given student in the tabular format
+ ------------------------------------------------------------------
+|Class Name|Workshop|Progress Test|Practical Exam|Final Exam|Status|
+ ------------------------------------------------------------------
+| SE123456 |   8.5  |    9.0      |      7.6     |   9.5    |Passed|
+ ------------------------------------------------------------------
+- Find and list the grades of a given class in the tabular format
+ -------------------------------------------------------------------------------
+|Student ID|Student Name|Workshop|Progress Test|Practical Exam|Final Exam|Status|
+ -------------------------------------------------------------------------------
+| HE123456 |Le Van An   |   8.5  |    9.0      |      7.6     |   9.5    |Passed|
+ -------------------------------------------------------------------------------
 
-// Lưu ý: Chương trình phải xác thực dữ liệu đầu vào 
+// Lưu ý 1: Your GMS has to permanently store student's grades in a text file on the secondary
+storage.
+
+// Lưu ý 2: Chương trình phải xác thực dữ liệu đầu vào 
 Your GMS should be able to validate the input data:
 - Student ID must be a string of length 8 - Mã số sinh viên phải là chuỗi string gồm 8 ký tự
 - Student's grades must be in range [0, 10] - Điểm của học sinh nhập vào phải từ 0 -> 10
