@@ -1,4 +1,4 @@
-#TUTORIAL
+# source
 /* GRADING MANAGEMENT SYSTEM
  * =========================
  *
