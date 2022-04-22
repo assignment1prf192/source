@@ -8,8 +8,8 @@ Yêu cầu của thầy rằng bài Assignment của mình sẽ có ít nhất 7
 
 Phân công nhiệm vụ: 
 
-* Hải - Calculate the average grade of a given class, Calculate the average grade of a given student
 * Dương - Add new student grade, Update student grade, Delete student grade, Lưu dữ liệu student ra 1 file ( đọc lưu ý 1 )
+* Hải - Calculate the average grade of a given class, Calculate the average grade of a given student
 * Bình - Find and list the grades of a given student in the tabular format, Find and list the grades of a given class in the tabular format
 
 Hôm review anh em sẽ thuyết trình và phải hiểu về kiến thức của phần mềm anh em viết, hiểu cách nó hoạt động, nếu có sai sót thì anh em tự sửa và trao đổi với nhau.
