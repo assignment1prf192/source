@@ -119,6 +119,7 @@ void print_menu()
 	printf("1. Add Grade\n");
 	printf("2. Edit Grade\n");
 	printf("3. Delete Grade\n");
+	printf("4. Tim va hien thong tin sinh vien man hinh thong qua ma sinh vien duoc nhap vao tu ban phim.\n");
 	printf("q. Quit\n\n");
 	printf("Enter your choice (1/2/3/q): ");
 }
