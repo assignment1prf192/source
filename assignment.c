@@ -93,6 +93,10 @@ int main()
 			case '3':
 				delete_grade();
 				break;
+			case '4':
+				find_mssv(dssv, slsv);
+				quaylaimenu();
+			        break;
 		}
 
 		if (choice != 'q')
@@ -130,7 +134,23 @@ void edit_grade()
 {
 	printf("Write your code here to edit grade.");
 }
-
+void find_mssv(struct SinhVien *list, int slsv)
+{
+	int i;
+	char ms[10];
+	printf("Nhap mssv de tim: ");
+	scanf("%s",ms);
+	int find = 0;
+	for(i = 0; i < slsv; i++){
+		if(strcmp(ms, list[i].mssv) == 0) {
+			hienThiTTSV(list[i]);
+			find = 1;
+		}
+	}
+    if (find == 0){
+	printf("\n\n\nMSSV khong hop le!\n\n");
+}
+}
 
 void delete_grade()
 {
