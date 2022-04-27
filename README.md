@@ -10,7 +10,7 @@ Yêu cầu của thầy rằng bài Assignment của mình sẽ có ít nhất 7
 
 Phân công nhiệm vụ: 
 
-* Bình - Add new student grade, Update student grade, sort student from ID, sort student from result, find a list a student from ID.
+* Bình - Add new student grade, Update student grade, sort student from ID, sort student from result, find and list a student from ID.
 * Hải - Calculate the average grade of a given class, Calculate the average grade of a given student.
 * Dương - Delete student grade, Find and list the grades of a student.
 
