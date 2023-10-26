@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T07:45:24.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" version="22.0.8" etag="X4Cr0jYuNpiOhGd5zorz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T08:04:58.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="mOrEgAb-szA3ytbwso2m" version="22.0.8" type="github">
   <diagram name="Page-1" id="b5LGx1y-4BX3DsugLkQ6">
-    <mxGraphModel>
+    <mxGraphModel dx="1009" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-23" value="Response to the request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-1" target="KEPUYFuTyqMKSpF0Npl8-3">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-1" value="Learning&lt;br&gt;Online&lt;br&gt;System" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-10" value="rate,feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3719" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-2" value="Student" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-14" value="Download,upload course materials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-3">
+          <mxGeometry x="-0.3591" relative="1" as="geometry">
+            <mxPoint x="430" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-17" value="view,search course" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-3" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3198" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="448" y="130" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-3" value="Lecture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-4" value="Support&lt;br&gt;Staff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-6" value="Login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.395;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-8" value="download course materials" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.325;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3782" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-9" value="Chat online" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.265;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.4083" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-11" value="pay course fee" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.065;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3421" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="130" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-12" value="search,view,enroll course" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-13" value="Login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.595;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-3" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-15" value="Chat online" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.705;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-3" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3174" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-16" value="rate,feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.775;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-3" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.348" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-18" value="Add,Manage course" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="KEPUYFuTyqMKSpF0Npl8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="70" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-20" value="Reply Questions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.375;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-4" target="KEPUYFuTyqMKSpF0Npl8-1">
+          <mxGeometry x="-0.3889" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-21" value="Receive questions" style="endArrow=classic;html=1;rounded=0;exitX=0.215;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-1" target="KEPUYFuTyqMKSpF0Npl8-4">
+          <mxGeometry x="0.4041" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="397" y="425" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEPUYFuTyqMKSpF0Npl8-22" value="Response to the request" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEPUYFuTyqMKSpF0Npl8-1" target="KEPUYFuTyqMKSpF0Npl8-2">
+          <mxGeometry x="-0.3158" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="450" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
